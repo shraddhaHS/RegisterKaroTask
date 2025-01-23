@@ -392,10 +392,10 @@ const FAQ = () => {
             {/* Phone Mockups */}
 
             <div className="absolute top-20 z-10 right-60  w-[320px] md:w-[320px] lg:w-[380px] aspect-[1/2] ">
-              <img src="public\assets\Phone.png" className="w-full h-full " />
+              <img src="/assets/Phone.png" className="w-full h-full " />
             </div>
             <div className="absolute top-0  z-10 right-0 w-[440px] md:w-[320px] lg:w-[380px] aspect-[1/2]">
-              <img src="public\assets\Phone.png" className="w-full h-full " />
+              <img src="/assets/Phone.png" className="w-full h-full " />
             </div>
           </div>
         </div>

@@ -59,7 +59,7 @@ const About = () => {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden">
               <img
-                src="public\assets\Group 1261153018.png"
+                src="/assets/Group 1261153018.png"
                 alt="Register Karo Team"
                 className="w-full h-auto object-cover"
                 loading="lazy"
