@@ -1,6 +1,6 @@
 # RegisterKaro Task
 
-This project is a React-based web application built using *React, **Vite, and **TailwindCSS*.  The application features dynamic service cards, responsive grid layouts, and a visually appealing design.
+This project is a React-based web application built using *React*, *Vite*, and *TailwindCSS*.  The application features dynamic service cards, responsive grid layouts, and a visually appealing design.
 
 ## Table of Contents
 
