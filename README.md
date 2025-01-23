@@ -50,13 +50,13 @@ This project is a React-based web application built using *React, **Vite, and **
  Open your browser and visit: http://localhost:5173
 
 ## Folder Structure
-
+```bash
 registerkaro/
-├── public/           # Static assets
+├── public/          
 ├── src
-│   ├── components/   # Reusable components
-│   ├── index.css     # styles
-│   ├── App.jsx       # Main application entry point
-├── package.json      # Project dependencies
-├── tailwind.config.js # TailwindCSS configuration
-└── vite.config.js    # Vite configuration
+│   ├── components/  
+│   ├── index.css     
+│   ├── App.jsx      
+├── package.json      
+├── tailwind.config.js 
+└── vite.config.js    
