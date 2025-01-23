@@ -145,11 +145,11 @@ const Landing = () => {
           {/* Left Column */}
           <div className="flex flex-col justify-center space-y-8">
             <div className="flex items-center space-x-2">
-              <img src="public\assets\star.png" alt="" />
+              <img src="public/assets/star.png" alt="" />
               <h2 className="text-[14px] font-semibold text-[#181617]">
                 Google Rating
               </h2>
-              <img src="public\assets\rating.png" alt="" />
+              <img src="public/assets/rating.png" alt="" />
             </div>
 
             <h1 className="text-5xl font-[500]">
@@ -283,12 +283,12 @@ const Landing = () => {
           <div className="flex justify-center items-center ">
             <div className="relative flex justify-center items-center">
               <img
-                src="public\assets\Group 3.png"
+                src="public/assets/Group 3.png"
                 alt="Landing Image"
                 className="w-full h-full object-cover"
               />
               <img
-                src="public\assets\Group301.png"
+                src="public/assets/Group301.png"
                 alt="Overlay Image"
                 className="absolute bottom-0 right-0 w-[100px] md:w-[150px] h-auto"
               />
