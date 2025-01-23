@@ -274,7 +274,7 @@ const Footer = () => {
           <div className="flex flex-wrap justify-center gap-8">
             {features.map((feature, index) => (
               <div key={index} className="flex items-center gap-2">
-                <img src="public/assets/Tick.png" alt="Tick" />
+                <img src="/assets/Tick.png" alt="Tick" />
                 <span>{feature}</span>
               </div>
             ))}
@@ -431,7 +431,7 @@ const Footer = () => {
               style={{ display: "inline-block", backgroundColor: "#FFA229" }}
               onClick={scrollToTop}
             >
-              <img src="public/assets/Arrow.png" alt="Arrow" />
+              <img src="/assets/Arrow.png" alt="Arrow" />
             </div>
           </div>
           <div className="text-center pt-8 border-t border-gray-800">

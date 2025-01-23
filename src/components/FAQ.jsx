@@ -13,7 +13,7 @@ const FAQ = () => {
       rating: 4.5,
       content:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure amet consectetur adipisicing elit ut aliquip ex ea commodo consequat.",
-      avatar: "public/assets/pic.png",
+      avatar: "/assets/pic.png",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const FAQ = () => {
       rating: 4.5,
       content:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure amet consectetur adipisicing elit ut aliquip ex ea commodo consequat.",
-      avatar: "public/assets/pic.png",
+      avatar: "/assets/pic.png",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const FAQ = () => {
       rating: 4.5,
       content:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure amet consectetur adipisicing elit ut aliquip ex ea commodo consequat.",
-      avatar: "public/assets/pic.png",
+      avatar: "/assets/pic.png",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const FAQ = () => {
       rating: 4.5,
       content:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure amet consectetur adipisicing elit ut aliquip ex ea commodo consequat.",
-      avatar: "public/assets/pic.png",
+      avatar: "/assets/pic.png",
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ const FAQ = () => {
       rating: 4.5,
       content:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure amet consectetur adipisicing elit ut aliquip ex ea commodo consequat.",
-      avatar: "public/assets/pic.png",
+      avatar: "/assets/pic.png",
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ const FAQ = () => {
       rating: 4.5,
       content:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure amet consectetur adipisicing elit ut aliquip ex ea commodo consequat.",
-      avatar: "public/assets/pic.png",
+      avatar: "/assets/pic.png",
     },
     {
       id: 7,
@@ -67,7 +67,7 @@ const FAQ = () => {
       rating: 4.5,
       content:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure amet consectetur adipisicing elit ut aliquip ex ea commodo consequat.",
-      avatar: "public/assets/pic.png",
+      avatar: "/assets/pic.png",
     },
   ];
 

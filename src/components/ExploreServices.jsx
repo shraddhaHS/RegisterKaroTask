@@ -1,37 +1,41 @@
-
 import { Link } from "react-router-dom";
 
 export default function ExploreServices() {
   const services = [
     {
-      icon: "public/assets/ser1.png",
+      icon: "/assets/ser1.png",
       title: "Company Formation",
-      description: "Build web-based solutions that enhance customer experience.",
+      description:
+        "Build web-based solutions that enhance customer experience.",
     },
     {
-      icon: "public/assets/ser2.png",
+      icon: "/assets/ser2.png",
       title: "Company Secretarial Services",
-      description: "Make data-driven decisions and utilize technology to reach business goals.",
+      description:
+        "Make data-driven decisions and utilize technology to reach business goals.",
     },
     {
-      icon: "public/assets/ser3.png",
+      icon: "/assets/ser3.png",
       title: "Virtual Office Address",
-      description: "Foster customer relationships by effectively serving your market.",
+      description:
+        "Foster customer relationships by effectively serving your market.",
     },
     {
-      icon: "public/assets/ser4.png",
+      icon: "/assets/ser4.png",
       title: "Annual Compliance Services",
-      description: "Turn your ideas into modern products with our design experts.",
+      description:
+        "Turn your ideas into modern products with our design experts.",
     },
     {
-      icon: "public/assets/ser5.png",
+      icon: "/assets/ser5.png",
       title: "Payroll Services",
       description: "Expand your business across the globe with minimal effort.",
     },
     {
-      icon: "public/assets/ser6.png",
+      icon: "/assets/ser6.png",
       title: "Bookkeeping Services",
-      description: "Steering user behaviours with creative design, data insights & technology.",
+      description:
+        "Steering user behaviours with creative design, data insights & technology.",
     },
   ];
 
@@ -44,7 +48,7 @@ export default function ExploreServices() {
           </p>
           <h2 className="text-3xl font-bold">Explore Our Services</h2>
         </div>
-  
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 relative">
           {services.map((service, index) => (
             <div
@@ -54,13 +58,16 @@ export default function ExploreServices() {
               {index % 3 !== 2 && index < 6 && (
                 <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-px bg-[#E5E2DF]" />
               )}
-             
-              <div className="mb-4">
-               <img src={service.icon} alt="" />
 
+              <div className="mb-4">
+                <img src={service.icon} alt="" />
               </div>
-              <h3 className="text-xl font-bold mb-6 text-center">{service.title}</h3>
-              <p className="text-[#282728] mb-10 text-center">{service.description}</p>
+              <h3 className="text-xl font-bold mb-6 text-center">
+                {service.title}
+              </h3>
+              <p className="text-[#282728] mb-10 text-center">
+                {service.description}
+              </p>
               <Link
                 to="#"
                 className="flex items-center justify-center text-sm gap-x-2 font-medium text-[#001038]"
@@ -82,7 +89,7 @@ export default function ExploreServices() {
             </div>
           ))}
         </div>
-  
+
         <div className="text-center mt-12">
           {/* Replaced shadcn Button with normal button */}
           <button className="bg-[#1C4670] hover:bg-[#1e3a8a]/90 text-white px-6 py-3 rounded-md">
@@ -92,5 +99,4 @@ export default function ExploreServices() {
       </div>
     </section>
   );
-  
 }

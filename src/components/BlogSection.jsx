@@ -8,7 +8,7 @@ const BlogSection = () => {
       title: "Small business & Startup",
       description:
         "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
-      image: "public/assets/Blog1.png",
+      image: "/assets/Blog1.png",
       tags: [
         { name: "Tax & Audit", color: "text-purple-600 bg-purple-50" },
         { name: "Management", color: "text-blue-600 bg-blue-50" },
@@ -20,7 +20,7 @@ const BlogSection = () => {
       title: "Scale-Up Company Offer",
       description:
         "Mental models are simple expressions of complex processes or relationships.",
-      image: "public/assets/Blog2.png",
+      image: "/assets/Blog2.png",
       tags: [
         { name: "Tax", color: "text-blue-600 bg-blue-50" },
         { name: "Research", color: "text-green-600 bg-green-50" },
@@ -33,7 +33,7 @@ const BlogSection = () => {
       title: "Growing Business Package",
       description:
         "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
-      image: "public/assets/Blog3.png",
+      image: "/assets/Blog3.png",
       tags: [
         { name: "Audit", color: "text-purple-600 bg-purple-50" },
         { name: "Money Back", color: "text-green-600 bg-green-50" },
@@ -45,7 +45,7 @@ const BlogSection = () => {
       title: "Scale-Up Company Offer",
       description:
         "Collaboration can make our teams stronger, and our individual designs better.",
-      image: "public/assets/Blog4.png",
+      image: "/assets/Blog4.png",
       tags: [
         { name: "Money", color: "text-purple-600 bg-purple-50" },
         { name: "Management", color: "text-blue-600 bg-blue-50" },
@@ -57,7 +57,7 @@ const BlogSection = () => {
       title: "Scale-Up Company Offer",
       description:
         "JavaScript frameworks make development easy with extensive features and functionalities.",
-      image: "public/assets/Blog5.png",
+      image: "/assets/Blog5.png",
       tags: [
         { name: "Tax Return", color: "text-green-600 bg-green-50" },
         { name: "News", color: "text-red-600 bg-red-50" },
@@ -70,7 +70,7 @@ const BlogSection = () => {
       title: "Scale-Up Company Offer",
       description:
         "Starting a community doesn't need to be complicated, but how do you get started?",
-      image: "public/assets/Blog6.png",
+      image: "/assets/Blog6.png",
       tags: [
         { name: "Private Limited Company", color: "text-blue-600 bg-blue-50" },
         { name: "Customer Success", color: "text-green-600 bg-green-50" },

@@ -342,14 +342,14 @@ const VideoInstruction = () => {
             <div className="relative w-full rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-[#1478F1] to-[#000000] opacity-35 " />
               <img
-                src="public/assets/Vector.png"
+                src="/assets/Vector.png"
                 alt="Video thumbnail"
                 className="w-full h-full object-cover"
               />
 
               <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-25 h-25">
                 <img
-                  src="public/assets/youtube-logo-png-46016 2.png"
+                  src="/assets/youtube-logo-png-46016 2.png"
                   alt="YouTube Icon"
                   className="w-full h-full object-contain"
                 />
