@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
+import { Link } from "react-router-dom"
 import {
   FaEnvelope,
   FaPhoneAlt,
@@ -49,90 +50,44 @@ const Navbar = () => {
       {/* Navbar */}
       <nav className="bg-white flex justify-between items-center py-8 font-semibold text-[#272D37] h-[44px] px-10 border border-b-1 border-[#D1D1D199] ">
         <div className="w-[222px] h-[56.8px] mb-3">
-          <img
-            src="/assets/logo.png"
-            alt="Logo"
-            className="w-full h-full object-contain"
-          />
+          <img src="/assets/logo.png" alt="Logo" className="w-full h-full object-contain" />
         </div>
 
         <ul className="flex space-x-8 items-center justify-end">
           <li>
-            <a href="#" className="hover:text-blue-500">
+            <Link to="/" className="hover:text-blue-500">
               Home
-            </a>
+            </Link>
           </li>
 
           <li className="relative">
-            <button
-              onClick={toggleDropdown}
-              className="flex items-center space-x-1 hover:text-blue-500"
-            >
-              <span
-                className="mr-1
-              "
-              >
-                Our Services
-              </span>
-              <FaChevronDown
-                size={14}
-                className={`transform ${
-                  dropdownOpen ? "rotate-180" : "rotate-0"
-                }`}
-              />
+            <button onClick={toggleDropdown} className="flex items-center space-x-1 hover:text-blue-500">
+            <Link to="/services" className="hover:text-blue-500">
+            <span className="mr-1">Our Services</span>
+            </Link> 
+              <FaChevronDown size={14} className={`transform ${dropdownOpen ? "rotate-180" : "rotate-0"}`} />
             </button>
-            {dropdownOpen && (
-              <ul className="absolute bg-white shadow-lg rounded mt-2 py-2 w-40">
-                <li>
-                  <a
-                    href="#service1"
-                    className="block px-4 py-2 text-sm hover:bg-gray-100"
-                  >
-                    Service 1
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#service2"
-                    className="block px-4 py-2 text-sm hover:bg-gray-100"
-                  >
-                    Service 2
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#service3"
-                    className="block px-4 py-2 text-sm hover:bg-gray-100"
-                  >
-                    Service 3
-                  </a>
-                </li>
-              </ul>
-            )}
+          
           </li>
 
           <li>
-            <a href="#blog" className="hover:text-blue-500">
+            <Link to="/blog" className="hover:text-blue-500">
               Blog
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#contact" className="hover:text-blue-500">
               Contact
-            </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-blue-500">
+            <Link to="/about" className="hover:text-blue-500">
               About
-            </a>
+            </Link>
           </li>
           <li>
             <FaSearch className="hover:text-gray-400" size={17.6} />
           </li>
           <li>
-            <button className="bg-[#FFA229] p-2 font-bold text-white rounded">
-              Talk An Expert
-            </button>
+            <button className="bg-[#FFA229] p-2 font-bold text-white rounded">Talk An Expert</button>
           </li>
         </ul>
       </nav>
