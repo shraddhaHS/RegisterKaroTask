@@ -8,10 +8,7 @@ This project is a React-based web application built using *React, **Vite, and **
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Folder Structure](#folder-structure)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
@@ -40,65 +37,29 @@ This project is a React-based web application built using *React, **Vite, and **
 1. *Clone the Repository*  
    ```bash
    git clone 
-   cd registerkaro-task
+   cd registerkaro
 
-	2.	Install Dependencies
-
-npm install
-
-
-	3.	Run the Application
-
-npm run dev
+2.*Install Dependencies*
+  ```bash
+    npm install
 
 
-	4.	Open in Browser
+3.*Run the Application*
+  ```bash
+ npm run dev
+
+
+4.*Open in Browser*
 Open your browser and visit: http://localhost:5173
 
 Folder Structure
 
-registerkaro-task/
+registerkaro/
 ├── public/           # Static assets
-├── src/
-│   ├── assets/       # Images and icons
+├── src
 │   ├── components/   # Reusable components
-│   │   └── ExploreServices.jsx
-│   ├── pages/        # Main application pages
-│   ├── styles/       # Global TailwindCSS styles
+│   ├── index.css     # styles
 │   ├── App.jsx       # Main application entry point
-│   └── main.jsx      # Vite entry point
 ├── package.json      # Project dependencies
 ├── tailwind.config.js # TailwindCSS configuration
 └── vite.config.js    # Vite configuration
-
-Usage
-
-Adding New Services
-
-You can modify the services array in the ExploreServices component to add, remove, or edit the services displayed.
-
-Example:
-
-{
-  icon: YourIconComponent,
-  title: "New Service Title",
-  description: "Description of the new service.",
-}
-
-Customizing Styles
-
-TailwindCSS makes it easy to customize styles. Modify the className attributes or update the tailwind.config.js file for global changes.
-
-Customization
-
-Colors
-
-You can update the colors used in the project by modifying the tailwind.config.js file.
-
-Icons
-
-The project does not use any specific icon library. You can import or use any preferred icon library or replace icons with images.
-
-Button and Link Styling
-
-Buttons and links can be customized by changing their respective className attributes in the JSX.
