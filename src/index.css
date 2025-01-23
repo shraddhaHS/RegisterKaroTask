@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+ font-family: "Inter", serif;
+ font-style: normal;
+}
+
+  .separator-line::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    top: -2px;
+    left: 100%; /* Position the separator to the right of the element */
+    margin-left: 12px; /* Space between the text and separator */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #D0D0D0 50%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0.6; /* Adjust the opacity if needed */
+  }
+
+  
+  
+  .landing {
+    background: linear-gradient(113.91deg, #FFFFFF 8%, rgba(255, 240, 220, 0.67) 28%, rgba(237, 246, 255, 0.7) 36%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .stickRight {
+    position: absolute;
+    top: 25%;
+    right: 0%;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .gradient-border {
+    position: relative;
+    padding-left: 10px; /* Adjust padding to make space for the border */
+  }
+  
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px; /* Border width */
+    background: linear-gradient(#FFA229, #1C4670); /* Gradient colors */
+    border-radius: 5px;
+  }
+  
+  
