@@ -38,21 +38,18 @@ This project is a React-based web application built using *React, **Vite, and **
    ```bash
    git clone 
    cd registerkaro
-
-2.*Install Dependencies*
-  ```bash
-    npm install
-
-
-3.*Run the Application*
-  ```bash
- npm run dev
+2. *Install Dependencies*  
+   ```bash
+   npm install
+3. *Run the Application*  
+   ```bash
+    npm run dev
 
 
-4.*Open in Browser*
-Open your browser and visit: http://localhost:5173
+4. *Open in Browser*
+ Open your browser and visit: http://localhost:5173
 
-Folder Structure
+## Folder Structure
 
 registerkaro/
 ├── public/           # Static assets
